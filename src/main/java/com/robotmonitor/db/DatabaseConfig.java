@@ -33,7 +33,7 @@ public final class DatabaseConfig {
         }
         return new DatabaseConfig(
             environment.getOrDefault("DB_URL", properties.getProperty("db.url", "jdbc:mysql://localhost:3306/robot_monitoring")),
-            environment.getOrDefault("DB_USER", properties.getProperty("db.user", "root")),
+            environment.getOrDefault("DB_USER", properties.getProperty("db.user", "")),
             environment.containsKey("DB_PASSWORD") ? environment.get("DB_PASSWORD") : properties.getProperty("db.password")
         );
     }
