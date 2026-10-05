@@ -1,0 +1,9 @@
+/target/
+/.tools/
+/.test-mysql/
+/.m2/
+/config/database.properties
+*.log
+.idea/
+*.iml
+~$*

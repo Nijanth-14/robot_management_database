@@ -1,0 +1,5 @@
+# Optional: copy to database.properties. Do not commit credentials.
+db.url=jdbc:mysql://localhost:3306/robot_monitoring
+db.user=root
+# Leave db.password absent to be prompted securely by run.cmd.
+# Environment variables DB_URL, DB_USER, DB_PASSWORD override these settings.
